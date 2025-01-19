@@ -7,6 +7,22 @@
         grid-template-columns: repeat(1, 1fr);
         margin-bottom: 20px;
     }
+    .facts-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section-title,
+    .fact-description { 
+        margin-left: 30px;
+    }
+    .fact-card{
+        margin-top: 20px;
+    }
+    .sponsor-companies{
+        grid-template-columns: 1fr;
+        max-width: 500px;
+        justify-items: center;
+        gap: 50px;
+    }
 
 }
 
@@ -21,5 +37,13 @@
     .feature-content{
         margin-left: 0px;
         margin-top: 20px;
+    }
+    .facts-container {
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+    .section-title,
+    .fact-description { 
+        margin-left: 30px;
     }
 }
