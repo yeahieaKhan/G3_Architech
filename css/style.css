@@ -168,3 +168,46 @@ h1.banner-title {
 
 
 /****____________________ 4.0 - header style end _______________________*****/
+/****____________________ 5.0 - feature section style start _______________________*****/
+.feature-section{
+  max-width: 1440px;
+  margin: 100px auto;
+}
+
+.feature-element {
+  display: flex;
+  align-items: center;
+}
+
+.team-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.feature-content {
+  max-width: 530px;
+  margin-left: 53px;
+}
+
+h2.team-title {
+  font-weight: 400;
+  color: #424242;
+}
+
+h2.team-title span {
+  font-weight: bold;
+  color: #000;
+}
+
+
+
+.feature-content  h2 {
+  color: #fb5200;
+}
+
+p.team-des {
+  color: #424242;
+  margin: 10px 10px;
+}
+/****____________________ 5.0 - teature section style end _______________________*****/

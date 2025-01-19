@@ -1,5 +1,25 @@
 @media screen and (max-width:576px) {
-    nav, nav ul{
+    nav, nav ul,
+    .feature-element{
         flex-direction: column;
+    }
+    .team-images{
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (min-width:577px) and (max-width:991px) {
+    .feature-element{
+        flex-direction: column;
+    }
+    .team-images{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .feature-content{
+        margin-left: 0px;
+        margin-top: 20px;
     }
 }
