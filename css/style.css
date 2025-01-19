@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* =======================================================
+    Template Name: g3 archtechture
+    Created By: yeahiea khan
+    Website: 
+    Version: 1.0.0
+    Support: 
+========================================================= */
+
+
+
+/* 
+====================================
+[ CSS TABLE CONTENT ]
+------------------------------------
+    1.0 - General
+    2.0 - Typography
+    3.0 - shared style
+    4.0 - Header Area
+    5.0 - Service Area
+    6.0 - Works Area
+    7.0 - Testimonial Area
+    8.0 - Team Area
+    9.0 - Blog Area
+    10.0 - Clients Area
+    11.0 - Contact Area
+    12.0 - Footer Area
+   
+-------------------------------------
+[ END CSS TABLE CONTENT ]
+===================================== 
+*/
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-
+	  1.0 General
+=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+body{
+	background-color: #fff;
+}
+
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-
+	  2.0 Typography
+=-=-=-=-=-=-=-=-=-=-=-=-= */
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+h1{
+	font-size: 40px;
+}
+h2{
+	font-size: 35px;
+}
+h3{
+	font-size: 30px;
+}
+h4{
+	font-size: 25px;
+}
+h5{
+	font-size: 20px;
+}
+h6{
+	font-size: 18px;
+}
+p{
+	font-size: 20px;
+	color: #ddd;
+}
+img{
+  max-width: 100%;
+}
+/****____________________ 3.0 - shared style start_______________________*****/
+
+
+
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.display-flex{
+  display: flex;
+}
+.text-gray{
+  color: #424242;
+}
+/****____________________ 3.0 - shared style end _______________________*****/
+
+/****____________________ 4.0 - header style start _______________________*****/
+.headed-section{
+  background-color: rgba(255, 144, 14, 10%);
+  
+}
+h3.logo-items {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 11px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+  
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+li.nav-itesm {
+  margin-left: 30px;
+}
+
+
+
+a.nav-link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #424242;
+}
+
+
+
+
+.banner {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 41px;
+}
+
+.banner-content {
+  text-align: center;
+  max-width: 850px;
+  margin: 30px auto;
+}
+
+h1.banner-title {
+  font-size: 4rem;
+}
+
+.banner-content p {
+  color: #424242;
+  margin: 20px 20px;
+}
+
+.primary-btn {
+  background: #fb5200;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 20px;
+}
+
+
+/****____________________ 4.0 - header style end _______________________*****/
